@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&family=Prompt:ital,wght@1,200&family=Syne+Mono&display=swap");
+
+body {
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+  background-color: #ede6db;
+}
+
+.Full_Part {
+  text-align: center;
+  margin-top: 4rem;
+  background-color: #1d5c63;
+}
+.Full_Part h1 {
+  padding: 10px;
+  font-size: x-large;
+  font-family: "Dancing Script", cursive;
+  color: #f66b0e;
+}
+.search-form {
+  height: 40px;
+}
+.search-form input {
+  height: 35px;
+  width: 200px;
+  border: none;
+
+  border-radius: 7px;
+  outline: none;
+}
+.search-form button {
+  height: 35px;
+  border: none;
+  border-radius: 7px;
+  outline: none;
+  margin-left: 4px;
+  padding: 7px;
+  text-transform: capitalize;
+  color: rgb(35, 3, 3);
+  background: #5584ac;
+}
+.single_div {
+  background-color: #fff;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.single_img {
+  height: 140px;
+  width: 295px;
+  object-fit: cover;
+  border: 2px solid #f66b0e;
+  border-radius: 7px;
+}
+.details_part {
+  text-align: left;
+  height: 280px;
+}
+.details_part p {
+  text-transform: capitalize;
+  color: #1d5c63;
+}
+.single_title {
+  font-size: large;
+  margin-top: 5px;
+  font-family: "League Gothic", sans-serif;
+}
+.source_code {
+  font-family: "Prompt", sans-serif;
+}
